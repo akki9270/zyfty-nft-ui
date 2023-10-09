@@ -242,7 +242,7 @@ input[type=search]:-webkit-search-results-decoration {
 
 /*_Color Variables_*/
 .site-header {
-  position: fixed;
+  /* position: fixed; */
   z-index: 9999;
   top: 0;
   width: 100%;
@@ -495,7 +495,7 @@ input[type=search]:-webkit-search-results-decoration {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 297px);
   position: relative;
 }
 
