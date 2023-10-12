@@ -496,7 +496,7 @@ input[type=search]:-webkit-search-results-decoration {
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 297px);
-  position: relative;
+  /* position: relative; */
 }
 
 .banner-wrap .container {
